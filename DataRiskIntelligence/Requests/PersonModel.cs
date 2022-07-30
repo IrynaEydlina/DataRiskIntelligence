@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DataRistIntelligence.Requests;
+namespace DataRiskIntelligence.Requests;
 
 public class PersonModel
 {

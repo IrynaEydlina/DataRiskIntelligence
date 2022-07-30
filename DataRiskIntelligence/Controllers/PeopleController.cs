@@ -1,10 +1,10 @@
 using DataRiskIntelligence.Infrastructure.Commands.Persons;
 using DataRiskIntelligence.Infrastructure.Queries.Persons;
-using DataRistIntelligence.Requests;
+using DataRiskIntelligence.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DataRistIntelligence.Controllers;
+namespace DataRiskIntelligence.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

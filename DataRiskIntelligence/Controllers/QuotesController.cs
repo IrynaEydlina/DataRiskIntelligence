@@ -1,10 +1,10 @@
 using DataRiskIntelligence.Infrastructure.Commands.Quotes;
 using DataRiskIntelligence.Infrastructure.Queries.Quotes;
-using DataRistIntelligence.Requests;
+using DataRiskIntelligence.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DataRistIntelligence.Controllers;
+namespace DataRiskIntelligence.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -31,7 +31,7 @@ public class QuotesController : ControllerBase
     {
         var query = new GetQuoteyIdQuery(id);
         var person = await _mediator.Send(query);
-        if(person == null)
+        if (person == null)
         {
             return NotFound();
         }

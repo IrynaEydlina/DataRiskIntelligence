@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DataRistIntelligence.Requests;
+namespace DataRiskIntelligence.Requests;
 
 public class QuoteModel
 {
@@ -9,5 +9,5 @@ public class QuoteModel
     public string Text { get; set; }
 
     [Required]
-    public int PersonId{ get; set; }
+    public int PersonId { get; set; }
 }
